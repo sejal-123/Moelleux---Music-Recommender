@@ -1,0 +1,301 @@
+nav {
+  background-color: black;
+  color: white;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: "Prompt", sans-serif;
+  font-weight: 300;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+h1,
+nav {
+  font-family: "Prompt", sans-serif;
+  font-weight: 600;
+}
+
+h1 {
+  margin-top: 75px;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: "Prompt", sans-serif;
+  font-weight: 300;
+}
+
+p {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+img {
+  height: 800px;
+}
+
+audio {
+  margin-top: 28px;
+}
+
+.fa-map-marker:hover,
+.fa-envelope:hover,
+.fa-phone:hover {
+  color: #f5c002;
+}
+
+a:hover,
+.fa-map-marker,
+.fa-envelope,
+.fa-phone,
+#noteLogo {
+  color: #26a69a;
+}
+
+.sidenav {
+  width: 200px;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.no-shadows {
+  box-shadow: none !important;
+}
+
+.descriptiondiv {
+  margin-top: 10px;
+}
+
+.butlerdiv {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.butlerlogo {
+  width: 225px;
+}
+
+h2,
+.submitBtn,
+.submitArtistBtn,
+.messageBtn,
+.goBackBtn {
+  font-size: 25px;
+  font-family: "Prompt", sans-serif;
+  font-weight: 300;
+}
+
+.toast {
+  background-color: #f5c002;
+  color: black;
+}
+
+.topLinks {
+  margin-top: 60px;
+}
+
+.topImgs {
+  width: 200px;
+  border-radius: 50px;
+}
+
+.topImgs:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hide {
+  display: none;
+}
+
+.albumImg {
+  width: 300px;
+  height:300px;
+}
+
+.monthlyText {
+  margin-bottom: 75px;
+  font-size: 24px;
+}
+
+.card-title {
+  text-shadow: 2px 2px 5px black;
+}
+
+.card-image {
+  height: 295px;
+}
+
+.card-content {
+  height: 215px;
+  overflow: scroll;
+}
+
+.album-image {
+  height: 300px;
+}
+
+.album-content {
+  height: 150px;
+  overflow: scroll;
+}
+
+.songInfoDiv,
+.topSongsInfoDiv {
+  margin-top: 10px;
+}
+
+.songData,
+.topSongData {
+  font-family: "Prompt", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.userSongDiv,
+.userArtistChoice,
+.userTopSongDiv {
+  margin-bottom: 75px;
+}
+
+.lyricsBtn {
+  font-family: "Prompt", sans-serif;
+  font-weight: 300;
+  margin-top: 38px;
+}
+
+.lyricsAlbumBtn {
+  margin-top: 0px;
+}
+
+.audioAlbum {
+  margin-top: 8px;
+}
+
+.albumName {
+  margin-top: 65px;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.artistName {
+  font-size: 25px;
+}
+
+.returnBtn {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.songChoice,
+.userArtistChoice,
+.topSong {
+  font-family: "Prompt", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.artistChoice {
+  font-family: "Prompt", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.songLyric {
+  font-size: 50px;
+}
+
+.artistTopSongDiv,
+.userTopSongDiv {
+  margin-top: 75px;
+}
+
+.page-footer {
+  background-color: transparent;
+  color: black;
+  font-family: "Prompt", sans-serif;
+  font-weight: 300;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.aboutH1 {
+  margin-bottom: 40px;
+}
+
+.help-tag {
+  font-family: "Prompt", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 55px;
+}
+
+#askwinstonlogo {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+#noteLogo:hover {
+  color: white;
+}
+
+#songRadioBtn,
+#artistRadioBtn {
+  color: black;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  text-align: center;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  text-align: center;
+}
+
+:-ms-input-placeholder {
+  text-align: center;
+}
+
+#homeAddress:hover,
+#contactPhone:hover,
+#email:hover,
+#inezImage:hover,
+#marcImage:hover,
+#ramonImage:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+#homeAddress,
+#contactPhone,
+#email,
+#inezImage,
+#marcImage,
+#ramonImage {
+  transition: transform 0.5s ease;
+}
+
+#inezBio,
+#marcBio,
+#ramonBio {
+  font-size: 18px;
+}
+
+#meetDevBtn {
+  margin-bottom: 15px;
+}
+

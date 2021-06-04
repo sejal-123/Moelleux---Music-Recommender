@@ -1,0 +1,26 @@
+<html>
+<title>Search</title>
+<body>
+<table border="2" style="font-size:30px;">
+{% if data %}
+<tr>
+<th>Song Name</th>
+<th>Song Artist</th>
+
+</tr>
+{% for d in data %}
+<tr>
+<td>{{d.song_name}}</td>
+<td>{{d.song_artist}}</td>
+</tr>
+{% endfor %}
+{% else %}
+<tr>
+<td>
+No Data Found
+</td>
+</tr>
+{% endif %}
+</table>
+</body>
+</html>
